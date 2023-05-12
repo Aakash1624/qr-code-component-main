@@ -1,0 +1,39 @@
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    -o-object-fit: contain;
+}
+
+.card-container{
+    border: 20rem;
+    padding: 1rem;
+
+}
